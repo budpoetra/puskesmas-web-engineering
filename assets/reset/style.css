@@ -1,0 +1,115 @@
+#user-login {
+    max-width: 550px;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+input#btnsubmit {
+    background-color: transparent;
+    padding: 10px;
+    border: #485c61 0px solid;
+    color: #FFF;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.pwderr {
+    position: relative;
+    color: #bb1515;
+}
+
+.usererr {
+    position: relative;
+    color: #bb1515;
+}
+
+*, *:before, *:after {
+    box-sizing: content-box;
+}
+
+h5 {
+     text-align: center;
+}
+
+.container .row {
+    margin-left: unset;
+    margin-right: -0.75rem;
+}
+
+input[type=text].feedb-email {
+    padding: 10px 8px;
+    width: 180px;
+    margin: 0;
+    float: left;
+    border: 1px solid #a1a2a2;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    font-size: inherit;
+    height: auto;
+}
+
+[type="checkbox"]+label {
+    width: 100%;
+}
+
+input {
+    font: -webkit-small-control;
+    margin-left: 0px !important;
+    width: 99% !important;
+    margin-bottom: 0px !important;
+}
+
+body {
+    font-size: initial;
+}
+
+html {
+    line-height: normal;
+}
+
+.input-field .prefix {
+    line-height: 50px;
+}
+.input-field.col label {
+    margin-left: 0px !important;
+}
+input.search {
+    background-color: #FFF;
+    border: none;
+    border-bottom: initial;
+    outline: none;
+    height: unset;
+    width: 400px;
+    font-size: 1rem;
+    margin: auto;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 0;
+    background-color: #fcfefd;
+    line-height: 15px;
+    margin-right: -30px;
+    padding: 10px 0 8px 8px;
+    width: 400px;
+    color: #5c5c5c;
+    border-radius: 4px;
+}
+.row .col.s12 {
+    width: 99%;
+}
+
+[type="checkbox"]#remember-me {
+    pointer-events: auto;
+    width: 18px !important;
+    height: 18px;
+    left: 24px;
+    top: 15px;
+}

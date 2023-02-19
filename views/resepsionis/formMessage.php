@@ -1,0 +1,1 @@
+<input type="text" class="form-control" id="message" aria-describedby="emailHelp" placeholder="Send a Message...">
